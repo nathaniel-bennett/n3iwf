@@ -13,15 +13,15 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	n3iwf_context "github.com/free5gc/n3iwf/internal/context"
-	"github.com/free5gc/n3iwf/internal/ike"
-	"github.com/free5gc/n3iwf/internal/ike/xfrm"
-	"github.com/free5gc/n3iwf/internal/logger"
-	"github.com/free5gc/n3iwf/internal/ngap"
-	"github.com/free5gc/n3iwf/internal/nwucp"
-	"github.com/free5gc/n3iwf/internal/nwuup"
-	"github.com/free5gc/n3iwf/pkg/app"
-	"github.com/free5gc/n3iwf/pkg/factory"
+	n3iwf_context "github.com/nathaniel-bennett/n3iwf/internal/context"
+	"github.com/nathaniel-bennett/n3iwf/internal/ike"
+	"github.com/nathaniel-bennett/n3iwf/internal/ike/xfrm"
+	"github.com/nathaniel-bennett/n3iwf/internal/logger"
+	"github.com/nathaniel-bennett/n3iwf/internal/ngap"
+	"github.com/nathaniel-bennett/n3iwf/internal/nwucp"
+	"github.com/nathaniel-bennett/n3iwf/internal/nwuup"
+	"github.com/nathaniel-bennett/n3iwf/pkg/app"
+	"github.com/nathaniel-bennett/n3iwf/pkg/factory"
 )
 
 var N3IWF *N3iwfApp

@@ -6,12 +6,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/free5gc/ike"
-	"github.com/free5gc/ike/message"
-	ike_message "github.com/free5gc/ike/message"
-	"github.com/free5gc/ike/security"
-	n3iwf_context "github.com/free5gc/n3iwf/internal/context"
-	"github.com/free5gc/n3iwf/internal/logger"
+	"github.com/nathaniel-bennett/ike"
+	"github.com/nathaniel-bennett/ike/message"
+	ike_message "github.com/nathaniel-bennett/ike/message"
+	"github.com/nathaniel-bennett/ike/security"
+	n3iwf_context "github.com/nathaniel-bennett/n3iwf/internal/context"
+	"github.com/nathaniel-bennett/n3iwf/internal/logger"
 )
 
 func SendIKEMessageToUE(

@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 
-	ike_message "github.com/free5gc/ike/message"
-	ike_security "github.com/free5gc/ike/security"
+	ike_message "github.com/nathaniel-bennett/ike/message"
+	ike_security "github.com/nathaniel-bennett/ike/security"
 )
 
 const (

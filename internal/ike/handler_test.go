@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ike_message "github.com/free5gc/ike/message"
-	n3iwf_context "github.com/free5gc/n3iwf/internal/context"
-	"github.com/free5gc/n3iwf/pkg/factory"
+	ike_message "github.com/nathaniel-bennett/ike/message"
+	n3iwf_context "github.com/nathaniel-bennett/n3iwf/internal/context"
+	"github.com/nathaniel-bennett/n3iwf/pkg/factory"
 	"github.com/free5gc/util/ippool"
 )
 

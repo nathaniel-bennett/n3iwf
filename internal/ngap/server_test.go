@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	n3iwf_context "github.com/free5gc/n3iwf/internal/context"
-	"github.com/free5gc/n3iwf/internal/ike"
-	"github.com/free5gc/n3iwf/pkg/factory"
+	n3iwf_context "github.com/nathaniel-bennett/n3iwf/internal/context"
+	"github.com/nathaniel-bennett/n3iwf/internal/ike"
+	"github.com/nathaniel-bennett/n3iwf/pkg/factory"
 	"github.com/free5gc/util/safe_channel"
 )
 

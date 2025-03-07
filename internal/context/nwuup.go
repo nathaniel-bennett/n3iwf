@@ -1,6 +1,6 @@
 package context
 
-import gtpQoSMsg "github.com/free5gc/n3iwf/internal/gtp/message"
+import gtpQoSMsg "github.com/nathaniel-bennett/n3iwf/internal/gtp/message"
 
 type NwuupEventType int64
 

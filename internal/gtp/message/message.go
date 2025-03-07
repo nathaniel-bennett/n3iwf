@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	gtpMsg "github.com/wmnsk/go-gtp/gtpv1/message"
 
-	"github.com/free5gc/n3iwf/internal/logger"
+	"github.com/nathaniel-bennett/n3iwf/internal/logger"
 )
 
 // [TS 38.415] 5.5.2 Frame format for the PDU Session user plane protocol

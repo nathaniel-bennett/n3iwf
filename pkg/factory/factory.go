@@ -7,7 +7,7 @@ import (
 	"github.com/asaskevich/govalidator"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/free5gc/n3iwf/internal/logger"
+	"github.com/nathaniel-bennett/n3iwf/internal/logger"
 )
 
 var N3iwfConfig *Config
